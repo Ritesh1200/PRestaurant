@@ -11,7 +11,7 @@ $conn = mysqli_connect($servername,$username,$password,$DBNAME );
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }else{
-	echo "connectaion connected <br>";
+	echo "connection connected <br>";
 }
 
 $uname = $_REQUEST["uname"];
